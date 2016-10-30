@@ -1,10 +1,49 @@
-form {
+body {
+	color: #777777;
+}
+.header {
+	background-color: #ffffff;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 1.5em;
+	margin: 0px;
+	border: width 3px solid color#cccccc;
+	padding: 5px; 
+}
+li {
+	
+	float: right;
+}
+a {
+	display: block;
+	padding: 10px;
+}
+
+.name {
+	background-color: #4aaaa5;
+	color: white;
+	font-size: 1.5em;
+	padding: 5px;
+	width: 400px;
+	text-align: center;
+}
+.navigation {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+.main {
+	background-color: #ffffff;
+}
+.article {
+
+}
+h2, h3 {color: #4aaaa5;}
+.form {
 	/* center the form */
 	margin: 0 auto;
 	width: 400px;
 	/* define the outline of the form*/
 	padding: 1em;
 	border: 2px solid #CCC;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 form div + div {
 	margin-top: 1em;
@@ -38,7 +77,11 @@ textarea {
 .button {
 	/* position button to same position as text fields*/
 	padding-left: 90px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 button {
 	margin-left: .5em;
+}
+.footer {
+	background-color: #ffffff;
 }
