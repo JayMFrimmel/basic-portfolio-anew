@@ -1,29 +1,27 @@
 body {
 	color: #777777;
+	width: 960px;
 }
 .header {
 	background-color: #ffffff;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-size: 1.5em;
-	margin: 0px;
-	border: width 3px solid color#cccccc;
+	width: 960px;
+	margin: 20px;
+	border-bottom-style: solid #7777777;
 	padding: 5px; 
 }
 li {
-	
 	float: right;
+	margin: 15px;
+	padding: 8px;
 }
-a {
-	display: block;
-	padding: 10px;
-}
-
 .name {
 	background-color: #4aaaa5;
 	color: white;
 	font-size: 1.5em;
 	padding: 5px;
-	width: 400px;
+	width: 350px;
 	text-align: center;
 }
 .navigation {
@@ -31,11 +29,25 @@ a {
 }
 .main {
 	background-color: #ffffff;
+	margin: 20px;
+	border-top: 5px solid grey;
+	clear: right;
 }
 .article {
-
+	width: 650px;
+	margin: 30px;
+	padding: 10px;
+	float: left;
 }
-h2, h3 {color: #4aaaa5;}
+h2 {
+	color: #4aaaa5;
+	font-size: 1.8em;
+	border-bottom: 3px solid grey;
+}
+h3 {
+	color: #4aaaa5;
+	border-bottom: 3px solid grey;
+}
 .form {
 	/* center the form */
 	margin: 0 auto;
@@ -82,6 +94,23 @@ textarea {
 button {
 	margin-left: .5em;
 }
+.aside{
+	width: 270px;
+	margin: 30px;
+	padding: 10px;
+	float: right;
+	text-align: center;
+	font-size: 1.5em;
+}
 .footer {
-	background-color: #ffffff;
+	background-color: grey;
+	width: 960px;
+	margin: 25px;
+	padding: 25px;
+	float: left;
+	color: white;
+	text-align: center;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 1.2em;
+
 }
